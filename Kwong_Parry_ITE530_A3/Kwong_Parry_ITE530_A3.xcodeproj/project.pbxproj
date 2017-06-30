@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E7130C01ED3F0E7007CE030 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7130BF1ED3F0E7007CE030 /* RatingControl.swift */; };
+		6E7130C21ED40708007CE030 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7130C11ED40708007CE030 /* LocationViewController.swift */; };
+		6E7130C41ED40F38007CE030 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7130C31ED40F38007CE030 /* LocationSearchTable.swift */; };
+		6E7FDD221ED6A6F600867FDC /* Kwong_Parry_ITE530_A3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E7FDD201ED6A6F600867FDC /* Kwong_Parry_ITE530_A3.xcdatamodeld */; };
+		6E8EA9371ED1DE4D0031CFCD /* TeamSpiritNF.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6E8EA9331ED1DDBB0031CFCD /* TeamSpiritNF.otf */; };
+		6E8EA9381ED1DE4D0031CFCD /* TeamSpiritNF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E8EA9341ED1DDBB0031CFCD /* TeamSpiritNF.ttf */; };
+		6E8EA93E1ED29FD90031CFCD /* MainSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8EA93D1ED29FD80031CFCD /* MainSceneViewController.swift */; };
+		6E8EA9401ED2B9B60031CFCD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8EA93F1ED2B9B60031CFCD /* TableViewCell.swift */; };
+		6E9571B51ED870AC000AAF10 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9571B41ED870AC000AAF10 /* CollectionViewCell.swift */; };
+		6E9571B91ED87139000AAF10 /* ZoomTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9571B81ED87139000AAF10 /* ZoomTransitioningDelegate.swift */; };
+		6E9571BB1ED87199000AAF10 /* CollectionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9571BA1ED87199000AAF10 /* CollectionDetailViewController.swift */; };
+		6E9C25011ED05587004498DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9C25001ED05587004498DB /* AppDelegate.swift */; };
+		6E9C25031ED05587004498DB /* AddEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9C25021ED05587004498DB /* AddEntryViewController.swift */; };
+		6E9C25051ED05587004498DB /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9C25041ED05587004498DB /* EntryViewController.swift */; };
+		6E9C250A1ED05587004498DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E9C25091ED05587004498DB /* Assets.xcassets */; };
+		6E9C250D1ED05587004498DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E9C250B1ED05587004498DB /* LaunchScreen.storyboard */; };
+		6E9C25181ED05587004498DB /* Kwong_Parry_ITE530_A3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9C25171ED05587004498DB /* Kwong_Parry_ITE530_A3Tests.swift */; };
+		6E9C25231ED05587004498DB /* Kwong_Parry_ITE530_A3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9C25221ED05587004498DB /* Kwong_Parry_ITE530_A3UITests.swift */; };
+		6E9C25321ED07E94004498DB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E9C25311ED07E94004498DB /* CoreLocation.framework */; };
+		6ECA5ED61F06B6BD00CC93CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ECA5ED81F06B6BD00CC93CE /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E9C25141ED05587004498DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E9C24F51ED05587004498DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E9C24FC1ED05587004498DB;
+			remoteInfo = Kwong_Parry_ITE530_A3;
+		};
+		6E9C251F1ED05587004498DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E9C24F51ED05587004498DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E9C24FC1ED05587004498DB;
+			remoteInfo = Kwong_Parry_ITE530_A3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E7130BF1ED3F0E7007CE030 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		6E7130C11ED40708007CE030 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		6E7130C31ED40F38007CE030 /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
+		6E7FDD211ED6A6F600867FDC /* Kwong_Parry_ITE530_A3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kwong_Parry_ITE530_A3.xcdatamodel; sourceTree = "<group>"; };
+		6E8EA9331ED1DDBB0031CFCD /* TeamSpiritNF.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TeamSpiritNF.otf; sourceTree = "<group>"; };
+		6E8EA9341ED1DDBB0031CFCD /* TeamSpiritNF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TeamSpiritNF.ttf; sourceTree = "<group>"; };
+		6E8EA93D1ED29FD80031CFCD /* MainSceneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainSceneViewController.swift; sourceTree = "<group>"; };
+		6E8EA93F1ED2B9B60031CFCD /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		6E9571B41ED870AC000AAF10 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		6E9571B81ED87139000AAF10 /* ZoomTransitioningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomTransitioningDelegate.swift; sourceTree = "<group>"; };
+		6E9571BA1ED87199000AAF10 /* CollectionDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionDetailViewController.swift; sourceTree = "<group>"; };
+		6E9C24FD1ED05587004498DB /* Kwong_Parry_ITE530_A3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kwong_Parry_ITE530_A3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9C25001ED05587004498DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E9C25021ED05587004498DB /* AddEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntryViewController.swift; sourceTree = "<group>"; };
+		6E9C25041ED05587004498DB /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		6E9C25091ED05587004498DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E9C250C1ED05587004498DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E9C250E1ED05587004498DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E9C25131ED05587004498DB /* Kwong_Parry_ITE530_A3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kwong_Parry_ITE530_A3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9C25171ED05587004498DB /* Kwong_Parry_ITE530_A3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kwong_Parry_ITE530_A3Tests.swift; sourceTree = "<group>"; };
+		6E9C25191ED05587004498DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E9C251E1ED05587004498DB /* Kwong_Parry_ITE530_A3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kwong_Parry_ITE530_A3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9C25221ED05587004498DB /* Kwong_Parry_ITE530_A3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kwong_Parry_ITE530_A3UITests.swift; sourceTree = "<group>"; };
+		6E9C25241ED05587004498DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E9C25311ED07E94004498DB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6ECA5ED71F06B6BD00CC93CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E9C24FA1ED05587004498DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E9C25321ED07E94004498DB /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9C25101ED05587004498DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9C251B1ED05587004498DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E2C45BC1ED96130007063D8 /* AddEntry */ = {
+			isa = PBXGroup;
+			children = (
+				6E9C25021ED05587004498DB /* AddEntryViewController.swift */,
+				6E8EA93F1ED2B9B60031CFCD /* TableViewCell.swift */,
+				6E7130C31ED40F38007CE030 /* LocationSearchTable.swift */,
+				6E7130C11ED40708007CE030 /* LocationViewController.swift */,
+			);
+			name = AddEntry;
+			sourceTree = "<group>";
+		};
+		6E2C45BD1ED961A5007063D8 /* ViewEntry */ = {
+			isa = PBXGroup;
+			children = (
+				6E9C25041ED05587004498DB /* EntryViewController.swift */,
+				6E9571BA1ED87199000AAF10 /* CollectionDetailViewController.swift */,
+				6E9571B41ED870AC000AAF10 /* CollectionViewCell.swift */,
+			);
+			name = ViewEntry;
+			sourceTree = "<group>";
+		};
+		6E2C45BE1ED961E7007063D8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6E8EA93D1ED29FD80031CFCD /* MainSceneViewController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		6E8EA9291ED1C10A0031CFCD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6E8EA9331ED1DDBB0031CFCD /* TeamSpiritNF.otf */,
+				6E8EA9341ED1DDBB0031CFCD /* TeamSpiritNF.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		6E9C24F41ED05587004498DB = {
+			isa = PBXGroup;
+			children = (
+				6E9C24FF1ED05587004498DB /* Kwong_Parry_ITE530_A3 */,
+				6E9C25161ED05587004498DB /* Kwong_Parry_ITE530_A3Tests */,
+				6E9C25211ED05587004498DB /* Kwong_Parry_ITE530_A3UITests */,
+				6E9C24FE1ED05587004498DB /* Products */,
+				6E9C25301ED07E94004498DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E9C24FE1ED05587004498DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E9C24FD1ED05587004498DB /* Kwong_Parry_ITE530_A3.app */,
+				6E9C25131ED05587004498DB /* Kwong_Parry_ITE530_A3Tests.xctest */,
+				6E9C251E1ED05587004498DB /* Kwong_Parry_ITE530_A3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E9C24FF1ED05587004498DB /* Kwong_Parry_ITE530_A3 */ = {
+			isa = PBXGroup;
+			children = (
+				6E9C25001ED05587004498DB /* AppDelegate.swift */,
+				6E2C45BC1ED96130007063D8 /* AddEntry */,
+				6E8EA9291ED1C10A0031CFCD /* Fonts */,
+				6E2C45BE1ED961E7007063D8 /* Main */,
+				6E2C45BD1ED961A5007063D8 /* ViewEntry */,
+				6E7130BF1ED3F0E7007CE030 /* RatingControl.swift */,
+				6E9571B81ED87139000AAF10 /* ZoomTransitioningDelegate.swift */,
+				6E9C25091ED05587004498DB /* Assets.xcassets */,
+				6ECA5ED81F06B6BD00CC93CE /* Main.storyboard */,
+				6E9C250B1ED05587004498DB /* LaunchScreen.storyboard */,
+				6E9C250E1ED05587004498DB /* Info.plist */,
+				6E7FDD201ED6A6F600867FDC /* Kwong_Parry_ITE530_A3.xcdatamodeld */,
+			);
+			path = Kwong_Parry_ITE530_A3;
+			sourceTree = "<group>";
+		};
+		6E9C25161ED05587004498DB /* Kwong_Parry_ITE530_A3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6E9C25171ED05587004498DB /* Kwong_Parry_ITE530_A3Tests.swift */,
+				6E9C25191ED05587004498DB /* Info.plist */,
+			);
+			path = Kwong_Parry_ITE530_A3Tests;
+			sourceTree = "<group>";
+		};
+		6E9C25211ED05587004498DB /* Kwong_Parry_ITE530_A3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E9C25221ED05587004498DB /* Kwong_Parry_ITE530_A3UITests.swift */,
+				6E9C25241ED05587004498DB /* Info.plist */,
+			);
+			path = Kwong_Parry_ITE530_A3UITests;
+			sourceTree = "<group>";
+		};
+		6E9C25301ED07E94004498DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E9C25311ED07E94004498DB /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E9C24FC1ED05587004498DB /* Kwong_Parry_ITE530_A3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E9C25271ED05587004498DB /* Build configuration list for PBXNativeTarget "Kwong_Parry_ITE530_A3" */;
+			buildPhases = (
+				6E9C24F91ED05587004498DB /* Sources */,
+				6E9C24FA1ED05587004498DB /* Frameworks */,
+				6E9C24FB1ED05587004498DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kwong_Parry_ITE530_A3;
+			productName = Kwong_Parry_ITE530_A3;
+			productReference = 6E9C24FD1ED05587004498DB /* Kwong_Parry_ITE530_A3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E9C25121ED05587004498DB /* Kwong_Parry_ITE530_A3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E9C252A1ED05587004498DB /* Build configuration list for PBXNativeTarget "Kwong_Parry_ITE530_A3Tests" */;
+			buildPhases = (
+				6E9C250F1ED05587004498DB /* Sources */,
+				6E9C25101ED05587004498DB /* Frameworks */,
+				6E9C25111ED05587004498DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E9C25151ED05587004498DB /* PBXTargetDependency */,
+			);
+			name = Kwong_Parry_ITE530_A3Tests;
+			productName = Kwong_Parry_ITE530_A3Tests;
+			productReference = 6E9C25131ED05587004498DB /* Kwong_Parry_ITE530_A3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E9C251D1ED05587004498DB /* Kwong_Parry_ITE530_A3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E9C252D1ED05587004498DB /* Build configuration list for PBXNativeTarget "Kwong_Parry_ITE530_A3UITests" */;
+			buildPhases = (
+				6E9C251A1ED05587004498DB /* Sources */,
+				6E9C251B1ED05587004498DB /* Frameworks */,
+				6E9C251C1ED05587004498DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E9C25201ED05587004498DB /* PBXTargetDependency */,
+			);
+			name = Kwong_Parry_ITE530_A3UITests;
+			productName = Kwong_Parry_ITE530_A3UITests;
+			productReference = 6E9C251E1ED05587004498DB /* Kwong_Parry_ITE530_A3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E9C24F51ED05587004498DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Parry Kwong";
+				TargetAttributes = {
+					6E9C24FC1ED05587004498DB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EQDJA7DXM7;
+						ProvisioningStyle = Automatic;
+					};
+					6E9C25121ED05587004498DB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EQDJA7DXM7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E9C24FC1ED05587004498DB;
+					};
+					6E9C251D1ED05587004498DB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EQDJA7DXM7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E9C24FC1ED05587004498DB;
+					};
+				};
+			};
+			buildConfigurationList = 6E9C24F81ED05587004498DB /* Build configuration list for PBXProject "Kwong_Parry_ITE530_A3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E9C24F41ED05587004498DB;
+			productRefGroup = 6E9C24FE1ED05587004498DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E9C24FC1ED05587004498DB /* Kwong_Parry_ITE530_A3 */,
+				6E9C25121ED05587004498DB /* Kwong_Parry_ITE530_A3Tests */,
+				6E9C251D1ED05587004498DB /* Kwong_Parry_ITE530_A3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E9C24FB1ED05587004498DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8EA9371ED1DE4D0031CFCD /* TeamSpiritNF.otf in Resources */,
+				6ECA5ED61F06B6BD00CC93CE /* Main.storyboard in Resources */,
+				6E8EA9381ED1DE4D0031CFCD /* TeamSpiritNF.ttf in Resources */,
+				6E9C250D1ED05587004498DB /* LaunchScreen.storyboard in Resources */,
+				6E9C250A1ED05587004498DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9C25111ED05587004498DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9C251C1ED05587004498DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E9C24F91ED05587004498DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E9571B51ED870AC000AAF10 /* CollectionViewCell.swift in Sources */,
+				6E7130C21ED40708007CE030 /* LocationViewController.swift in Sources */,
+				6E9571BB1ED87199000AAF10 /* CollectionDetailViewController.swift in Sources */,
+				6E9C25051ED05587004498DB /* EntryViewController.swift in Sources */,
+				6E7FDD221ED6A6F600867FDC /* Kwong_Parry_ITE530_A3.xcdatamodeld in Sources */,
+				6E9C25011ED05587004498DB /* AppDelegate.swift in Sources */,
+				6E7130C41ED40F38007CE030 /* LocationSearchTable.swift in Sources */,
+				6E8EA93E1ED29FD90031CFCD /* MainSceneViewController.swift in Sources */,
+				6E8EA9401ED2B9B60031CFCD /* TableViewCell.swift in Sources */,
+				6E7130C01ED3F0E7007CE030 /* RatingControl.swift in Sources */,
+				6E9C25031ED05587004498DB /* AddEntryViewController.swift in Sources */,
+				6E9571B91ED87139000AAF10 /* ZoomTransitioningDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9C250F1ED05587004498DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E9C25181ED05587004498DB /* Kwong_Parry_ITE530_A3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9C251A1ED05587004498DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E9C25231ED05587004498DB /* Kwong_Parry_ITE530_A3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E9C25151ED05587004498DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E9C24FC1ED05587004498DB /* Kwong_Parry_ITE530_A3 */;
+			targetProxy = 6E9C25141ED05587004498DB /* PBXContainerItemProxy */;
+		};
+		6E9C25201ED05587004498DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E9C24FC1ED05587004498DB /* Kwong_Parry_ITE530_A3 */;
+			targetProxy = 6E9C251F1ED05587004498DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E9C250B1ED05587004498DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E9C250C1ED05587004498DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6ECA5ED81F06B6BD00CC93CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ECA5ED71F06B6BD00CC93CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E9C25251ED05587004498DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E9C25261ED05587004498DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E9C25281ED05587004498DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EQDJA7DXM7;
+				INFOPLIST_FILE = Kwong_Parry_ITE530_A3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parrykwong.Kwong-Parry-ITE530-A3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6E9C25291ED05587004498DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EQDJA7DXM7;
+				INFOPLIST_FILE = Kwong_Parry_ITE530_A3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parrykwong.Kwong-Parry-ITE530-A3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6E9C252B1ED05587004498DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EQDJA7DXM7;
+				INFOPLIST_FILE = Kwong_Parry_ITE530_A3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parrykwong.Kwong-Parry-ITE530-A3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kwong_Parry_ITE530_A3.app/Kwong_Parry_ITE530_A3";
+			};
+			name = Debug;
+		};
+		6E9C252C1ED05587004498DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EQDJA7DXM7;
+				INFOPLIST_FILE = Kwong_Parry_ITE530_A3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parrykwong.Kwong-Parry-ITE530-A3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kwong_Parry_ITE530_A3.app/Kwong_Parry_ITE530_A3";
+			};
+			name = Release;
+		};
+		6E9C252E1ED05587004498DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = EQDJA7DXM7;
+				INFOPLIST_FILE = Kwong_Parry_ITE530_A3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parrykwong.Kwong-Parry-ITE530-A3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Kwong_Parry_ITE530_A3;
+			};
+			name = Debug;
+		};
+		6E9C252F1ED05587004498DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = EQDJA7DXM7;
+				INFOPLIST_FILE = Kwong_Parry_ITE530_A3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parrykwong.Kwong-Parry-ITE530-A3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Kwong_Parry_ITE530_A3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E9C24F81ED05587004498DB /* Build configuration list for PBXProject "Kwong_Parry_ITE530_A3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E9C25251ED05587004498DB /* Debug */,
+				6E9C25261ED05587004498DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E9C25271ED05587004498DB /* Build configuration list for PBXNativeTarget "Kwong_Parry_ITE530_A3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E9C25281ED05587004498DB /* Debug */,
+				6E9C25291ED05587004498DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E9C252A1ED05587004498DB /* Build configuration list for PBXNativeTarget "Kwong_Parry_ITE530_A3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E9C252B1ED05587004498DB /* Debug */,
+				6E9C252C1ED05587004498DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E9C252D1ED05587004498DB /* Build configuration list for PBXNativeTarget "Kwong_Parry_ITE530_A3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E9C252E1ED05587004498DB /* Debug */,
+				6E9C252F1ED05587004498DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6E7FDD201ED6A6F600867FDC /* Kwong_Parry_ITE530_A3.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6E7FDD211ED6A6F600867FDC /* Kwong_Parry_ITE530_A3.xcdatamodel */,
+			);
+			currentVersion = 6E7FDD211ED6A6F600867FDC /* Kwong_Parry_ITE530_A3.xcdatamodel */;
+			path = Kwong_Parry_ITE530_A3.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6E9C24F51ED05587004498DB /* Project object */;
+}
