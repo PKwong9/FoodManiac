@@ -1,4 +1,4 @@
-# FoodManiac
+# FoodManiac &nbsp; <img width="20" alt="appicon" src="https://user-images.githubusercontent.com/25920421/27767391-371dd726-5f29-11e7-9699-c591c5f429d1.png">
 
 A food review journal for you to keep track of your foodie experiences :)
 
